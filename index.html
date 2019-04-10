@@ -9,10 +9,11 @@
   <body>
 
     <!-- MOUNT POINT -->
-    <login></login>
+    <app></app>
 
     <!-- TAGS -->
-    <script src="./tags/login.tag" type="riot/tag"></script>
+    <script src="./tags/app.tag" type="riot/tag"></script>
+    <script src="./tags/feed.tag" type="riot/tag"></script>
 
     <!-- LOAD JQuery, Bootstrap, Riot, Firebase -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.js"></script>
@@ -22,13 +23,13 @@
     <script>
       // INITIALIZE FIREBASE
       var config = {
-        apiKey: "YOUR-API-KEY",
-        authDomain: "YOUR-PROJECT-ID.firebaseapp.com",
-        databaseURL: "https://YOUR-PROJECT-ID.firebaseio.com",
-        projectId: "YOUR-PROJECT-ID",
-        storageBucket: "YOUR-PROJECT-ID.appspot.com",
-        messagingSenderId: "YOUR-MESSAGINGSENDER-ID"
-      };
+          apiKey: "AIzaSyAA3pcpD6cOCqzHCObmiKljBMFveFn-8Tc",
+          authDomain: "secrets-a90be.firebaseapp.com",
+          databaseURL: "https://secrets-a90be.firebaseio.com",
+          projectId: "secrets-a90be",
+          storageBucket: "secrets-a90be.appspot.com",
+          messagingSenderId: "19725362948"
+        };
       firebase.initializeApp(config);
 
       // INITIALIZE RIOT
