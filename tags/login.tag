@@ -4,10 +4,7 @@
   <button show={ !user } class="btn btn-outline-success my-2 my-sm-0" type="button" onclick={ login }>Login</button>
 	<button show={ user } class="btn btn-outline-danger my-2 my-sm-0" type="button" onclick={ logout }>Logout</button>
   <div show={ !user } class="">
-    <form action="/action_page.php">
-      <input type="file" name="pic" accept="image/*">
-      <input type="submit">
-    </form>
+
   </div>
 
 
@@ -16,10 +13,13 @@
     login() {
 			var provider = new firebase.auth.GoogleAuthProvider();
 			firebase.auth().signInWithPopup(provider);
+      console.log("in login function");
 		}
 		logout() {
 			firebase.auth().signOut();
 		}
+
+    
 
 		this.on('update', () => {
 			this.user = opts.user;
