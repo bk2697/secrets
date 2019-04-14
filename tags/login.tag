@@ -1,4 +1,4 @@
-<!-- user logs in and can upload secretes -->
+<!-- user logs in and can upload secrets -->
 <login>
   <!-- HTML -->
   <button show={ !user } class="btn btn-outline-success my-2 my-sm-0" type="button" onclick={ login }>Login</button>
@@ -8,6 +8,7 @@
 
   <script>
     // JAVASCRIPT
+
     login() {
       var provider = new firebase.auth.GoogleAuthProvider();
       firebase.auth().signInWithPopup(provider);
