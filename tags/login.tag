@@ -1,4 +1,4 @@
-<!-- user logs in and can upload secretes -->
+<!-- user logs in and can upload secrets -->
 <login>
   <!-- HTML -->
   <button show={ !user } class="btn btn-outline-success my-2 my-sm-0" type="button" onclick={ login }>Login</button>
