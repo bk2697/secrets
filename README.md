@@ -9,10 +9,10 @@
         * had changing event(s) that was pivotal in their lives and want to start sharing through an anonymous, but community platform
         * engage with other people who have secrets they want to disclose (could relate to them, or even offer advice of how they got through that **similar** event)
         * Share troubles and ache life events, can help alleviate the burden of holding it in - be completely open, raw, and unguarded with their heart, mind, and soul.
-            * *"Vulnerabilty is the birthplace of innocation, creativity, and change."* - Dr. Brené Brown
+            * *"Vulnerabilty is the birthplace of innovation, creativity, and change."* - Dr. Brené Brown
     * Designer needs:
         * no text is involved, so want users to share and convey information via image
-        * encourage users to share their secrets that have influneced their lives, and hopefully that will allow them to be vulnerable and begin the process of healing
+        * encourage users to share their secrets that have influenced their lives, and hopefully that will allow them to be vulnerable and begin the process of healing
     * Audience:
         * Anyone and everyone who is ready to be vulnerable, and want to visually express their secrets that made an impact on their lives, to/on an anonymous, but safe community/site
 
@@ -30,18 +30,23 @@
         * Show options to edit and delete, just in case they want to adjust or retract what they post???
 
 * Structure
-    * Realtime board - TBA
+    * * https://miro.com/welcomeonboard/5epjRzLHyn6bJ7NWVDWE9GgoWCgbeQ5LBJOM1pDeNuN8sfdWGOkyGH4ZcZKjz7Ly
+    * ![](https://i.imgur.com/eLD6geE.png)
     * ![](https://i.imgur.com/cgZeAIu.png)
     * CRUD functions:
         * Create a post
         * Read data - Users know how to newsfeed the message by time stamp and to pull up people’s post history when they login
-        * Update - Users can modify and edit changes of their existing posts/ entries
-        * Delete option - Users can delete an old post if they want to not have it shown on the site anymore
+        * Update - Database will update when user submits/deletes a post, and the main newsfeed will also update accordingly
+        * Delete option - Users can delete an old post if they want to not have it shown on the personal and main feed anymore
 
 * Skeleton
-    * framework of pages - TBA
+    ![](https://i.imgur.com/3yrGQ88.png)
+    ![](https://i.imgur.com/nO4JJvi.png)
+    ![](https://i.imgur.com/Lp5WBmP.png)
+
 * Surface
     * See Demo URL
 
+#### Github respository:
 
 #### Youtube Reflection link:
