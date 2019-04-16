@@ -49,6 +49,6 @@
 * Surface
     * See Demo URL
 
-#### Github respository:
+#### Github respository: https://smy2127.github.io/secrets/
 
-#### Youtube Reflection link:
+#### Youtube Reflection link: https://youtu.be/FLcwKByMdVY
