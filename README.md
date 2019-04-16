@@ -21,10 +21,12 @@
     * Although it is anonymous, users will be sharing a (**deep**) secret through image form.
     * To achieve this goal, we need to create an ongoing (blog) post for various users to post a secret, and be safely exposed in this space.
     * Functionality:
-        * login button - for individuals to be able to log into their account (though it will not be reveiled once posted)
-        * Image URL button - individuals have to choose and upload an image that best represents their secret
-            * Let users upload URLs - and then we hardcore the URL’s so that they become the image source (in the code)
-        * Submit button - Once individual chooses the image file they want to reveal, their secret will be posted
+        * login button - for individuals to be able to log into their account (though it will not be revealed once posted)
+        * logout button - users can log out of the site
+        * Image URL - individuals have to copy and paste a link of the image that best represents their secret
+        * Post button - Let users post URLs - and then we hardcore the URL’s so that they become the image source (in the code)
+          * Once individual chooses the image file they want to reveal, their secret will be posted and writes it to the database
+        * My Secrets button - Users are able to see their secrets that they posted, set apart from the main newsfeed of secrets
     * Content:
         * Newsfeed of posts to show users that this is a *legitimate* site for them to be vulnerable
         * Show options to edit and delete, just in case they want to adjust or retract what they post???
